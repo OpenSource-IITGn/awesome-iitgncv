@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Resume/CV
+% XeLaTeX Template
+% Version 1.2 (27/3/2017)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Claud D. Park (posquit0.bj@gmail.com) with modifications by 
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified by Rohan Patil
+% License same as the original in accordance to the original License
+%
+% Modified version currently mainted by OpenSource-IITGn
+%
+% NOTE: LICNESE TO BE INCLUDE WITH THE DISTRIBUTION
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt]{awesome-iitgncv}
+%-----------------------------------------------------------
+\geometry{top=0.75in, bottom=0.75in, left=0.55in, right=0.85in}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{multicol}
+
+\fontfamily{SansSerif}
+\selectfont
+\textheight=9.75in
+\raggedbottom
+\setlength{\tabcolsep}{0in}
+
+\pagestyle{empty}
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+\setlength{\columnsep}{4cm}
+\begin{large}
+\indent\textbf{Rohan Patil} \\
+\end{large}
+ \indent Senior Undergraduate\hfill rohan.patil@iitgn.ac.in \\
+ \indent Department of Computer Science and Engineering  \hfill +91 9423880621
+
+\resheading{\textbf{Education} }\\
+\\
+\begin{tabular}{ p{3.5cm} @{\hskip 0.3in} p{6cm} @{\hskip 0.3in} p{2.85cm} @{\hskip 0.3in} p{2.5cm} }
+\hline
+\textbf{Degree} & \textbf{Institute} & \textbf{CPI/\%}  & \textbf{Year} \\
+\hline
+B.Tech & IIT Gandhinagar  & 9.48 & 2021 \\
+Class XII & Deogiri, College  & 88.31 & 2016-2017\\
+Class X & Holy Cross English High School  & 93.60 & 2014-2015\\
+\hline
+\end{tabular}
+
+\input{cv-sections/achievements.tex}
+\input{cv-sections/internship.tex}
+\input{cv-sections/publications.tex}
+\input{cv-sections/skills.tex}
+\input{cv-sections/projects.tex}
+\input{cv-sections/coursework.tex}
+\input{cv-sections/Extracurricular.tex}
+
+\end{document}
+
