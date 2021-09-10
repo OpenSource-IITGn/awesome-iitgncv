@@ -1,6 +1,6 @@
 # Awesome IITGN CV template
 
-The original [Awesome CV Template](https://github.com/posquit0/Awesome-CV) have been modified in accordance to the IITGN CDS format with added functionality to make it more suitable for college students. The moto here is simple:
+The original [Awesome CV Template](https://github.com/posquit0/Awesome-CV) have been modified in accordance to the IITGN CDS format with added functionality to make it more suitable for college students. The motto here is simple:
 1. Write more about you
 2. Write less code
 3. Spend less time in formatting
